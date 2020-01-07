@@ -1,4 +1,4 @@
-package breakingrecords;
+package implementation.breakingrecords;
 
 public class Solution {
 

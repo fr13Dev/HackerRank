@@ -1,4 +1,4 @@
-package divisiblesumpairs;
+package implementation.divisiblesumpairs;
 
 public class Solution {
 

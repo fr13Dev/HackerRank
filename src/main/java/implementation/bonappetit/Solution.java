@@ -1,4 +1,4 @@
-package bonappetit;
+package implementation.bonappetit;
 
 import java.util.Arrays;
 import java.util.List;

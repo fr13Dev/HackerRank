@@ -1,4 +1,4 @@
-package kangaroo;
+package implementation.kangaroo;
 
 public class Solution {
 
