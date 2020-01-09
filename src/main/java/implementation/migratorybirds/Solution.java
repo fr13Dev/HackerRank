@@ -14,10 +14,8 @@ public class Solution {
                 .distinct()
                 .collect(Collectors.toList());
         final Map<Integer, Integer> map = new TreeMap<>();
-        keys.forEach(key -> {
-            map.put(key, (int) arr.stream()
-                    .filter(i -> i.equals(key)).count());
-        });
+        keys.forEach(key -> map.put(key, (int) arr.stream()
+                .filter(i -> i.equals(key)).count()));
         final Optional<Map.Entry<Integer, Integer>> maxValueEntry = map.entrySet()
                 .stream()
                 .max(Comparator.comparingInt(Map.Entry::getValue));
