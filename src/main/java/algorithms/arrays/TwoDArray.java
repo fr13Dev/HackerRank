@@ -3,7 +3,7 @@ package algorithms.arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+public class TwoDArray {
 
     public static void main(String[] args) {
         int[][] arr = {
